@@ -77,7 +77,7 @@ export function StakeSol() {
     }
 
     // Check if wallet has enough balance
-    if (amountLamports.gt(new BN(walletBalance))) {
+    if (amountLamports.gt(new BN(walletBalance ?? 0))) {
       toast({
         title: "Error",
         description: "Insufficient funds in your wallet",
@@ -201,7 +201,7 @@ export function StakeSol() {
                     isStaking ||
                     isNaN(Number(amount)) ||
                     Number(amount) < 1 ||
-                    convertSolToLamports(Number(amount)).gt( new BN(walletBalance))
+                    convertSolToLamports(Number(amount)).gt( new BN(walletBalance ?? 0))
                   }
                   className="bg-[#512da8] hover:bg-[#673ab7] text-white"
                 >

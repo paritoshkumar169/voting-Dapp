@@ -1,7 +1,10 @@
 # 🗳️ Solana Voting DApp
 
+🔗 **Vercel Link:** [Deployed App](https://voting-dapp-three-rose.vercel.app/)
+
 A full-stack decentralized voting platform built on **Solana + Anchor**, allowing users to stake SOL, initialize governance, create proposals, and cast votes.
-🔗 **Deployed Link:** [https://voting-dapp-three-rose.vercel.app/](https://voting-dapp-three-rose.vercel.app/)
+
+
 
 ## 🔑 Features
 
